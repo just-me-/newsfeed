@@ -1,5 +1,6 @@
 {
   "name": "antenne_maerstetten",
+  "homepage" : "https://wuza.ch/specials/antenne/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

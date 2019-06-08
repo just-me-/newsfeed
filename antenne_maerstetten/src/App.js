@@ -34,7 +34,7 @@ function App() {
         <Header as="h2">Liebe Märstetter und Märstetterinnen</Header>
         <p>Herzlichen Dank, dass Sie sich an der Einsprache beteiligt haben.</p>
         <p>
-          Auf dieser Website werden wir, die Einsprachevertretter, Sie
+          Auf dieser Website werden wir, die Einsprachevertreter, Sie
           fortlaufend auf dem aktuellsten Stand bezüglich der Baubewilligung für
           die Mobilefunkantenne der Salt Mobile SA am Schützlerweg halten.
         </p>
@@ -52,10 +52,8 @@ function App() {
           <p>
             Dies ist eine WUZA Realisation. Kontaktangaben, das Impressum und
             weitere rechtliche Angaben (unter anderem zu Cookies) erhältst Du
-            auf{" "}
-            <a href="https://wuza.ch/view/impressum">
-              der Hauptseite von WUZA.ch
-            </a>
+            auf der{" "}
+            <a href="https://wuza.ch/view/impressum">Hauptseite von WUZA.ch</a>
           </p>
         </Container>
       </footer>
