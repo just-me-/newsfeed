@@ -1,15 +1,24 @@
-import React from 'react';
+import React from "react";
+import HeaderBox from "./components/HeaderBox";
 
-import Header from './components/Header';
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
+        <HeaderBox />
       </header>
+
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
     </div>
   );
 }

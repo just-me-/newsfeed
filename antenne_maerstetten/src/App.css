@@ -1,7 +1,36 @@
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   height: 100vh;
 }
 .react-parallax {
   height: 100%;
+}
+.headerFixed {
+  position: absolute;
+  width: 9rem;
+  top: 3rem;
+  left: 50vw;
+  z-index: 1
+}
+.headerFixed img {
+  margin-left: -4.5rem;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+.headerTitle {
+  z-index: 2;
+}
+.headerTitle h1 {
+  text-align: center;
+  color: white !important;
+  text-shadow: -1px 0 rgba(0, 0, 0, 0.5), 0 1px rgba(0, 0, 0, 0.5),
+    1px 0 rgba(0, 0, 0, 0.5), 0 -1px rgba(0, 0, 0, 0.5);
+
+  text-transform: uppercase;
+  line-height: 3.5rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  font-size: 4rem !important;
 }
