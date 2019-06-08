@@ -4,12 +4,14 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import PdfRekurs from "../documents/Rekurs.pdf";
 import PdfGemeinde from "../documents/EntscheidGemeinde.pdf";
+import PdfBaurelgement from "../documents/Baureglement.pdf";
+import PdfOrtsplanung from "../documents/VernehmlassungOrtsplanung.pdf";
 
 function Newsfeed() {
   return (
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
-        key="004"
+        key="005"
         dateText="4. Juni 2019"
         dateInnerStyle={{ backgroundColor: "#A8B275" }}
         style={{ color: "#A8B275" }}
@@ -21,8 +23,43 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfRekurs} target="_blank" rel="noopener noreferrer">
-            <Icon fitted name="file pdf" />&nbsp;Hier gehts zum Download
-              der Dokumente als PDF.
+            <Icon fitted name="file pdf" />
+            &nbsp;Hier gehts zum Download der Dokumente als PDF.
+          </a>
+        </p>
+      </TimelineItem>
+
+      <TimelineItem
+        key="004"
+        dateText="31. Mai 2019"
+        dateInnerStyle={{ backgroundColor: "#A8B275" }}
+        style={{ color: "#A8B275" }}
+      >
+        <h3>Prävention weiterer Antennen in Wohngegenden</h3>
+        <p>
+          Damit künftig keine Mobilfunkantennen in Wohngegenden gebaut werden
+          dürfen, muss das Baurelgement um entsprechende Vorschriften ergänzt
+          werden.
+        </p>
+        <p>
+          Wir setzen uns dafür ein, dass in Märstetten eine Positivplanung im
+          Baureglement aufgenommen wird. Das heisst, dass die Gemeinde bestimmt,
+          wo Mobilfunkantennen zulässig sind. In Märstetten müsste das die
+          Zone&nbsp;I (Arbeitszone Industrie) sein.
+        </p>
+        <p>
+          Nachfolgend finden Sie die Vernehmlassungsantwort der Einsprechenden
+          zur Teilrevision der Ortsplanung von Märstetten.
+        </p>
+        <p>
+          <a href={PdfBaurelgement} target="_blank" rel="noopener noreferrer">
+            <Icon fitted name="file pdf" />
+            &nbsp;Hier gehts zum angepassten Baureglement
+          </a>
+          {" und "}
+          <a href={PdfOrtsplanung} target="_blank" rel="noopener noreferrer">
+            <Icon fitted name="file pdf" />
+            &nbsp;hier ist der Download der verfassten Vernehmlassung.
           </a>
         </p>
       </TimelineItem>
@@ -33,7 +70,7 @@ function Newsfeed() {
         dateInnerStyle={{ backgroundColor: "#A8B275" }}
         style={{ color: "#A8B275" }}
       >
-        <h3>Entscheid der Gemeinde Märstetten - Baugesuch abgelehnt</h3>
+        <h3>Entscheid der Gemeinde Märstetten &ndash; Baugesuch abgelehnt</h3>
         <p>
           Das Baugesuch der Salt Mobile SA wurde aufgrund der Farbgebung von der
           Gemeinde Märstetten abgelehnt. Das Baugesuch wurde abgeweisen, die
@@ -49,8 +86,8 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfGemeinde} target="_blank" rel="noopener noreferrer">
-            <Icon fitted name="file pdf" />&nbsp;Hier gehts zum Download der
-            vollständigen Dokumente als PDF.
+            <Icon fitted name="file pdf" />
+            &nbsp;Hier gehts zum Download der vollständigen Dokumente als PDF.
           </a>
         </p>
       </TimelineItem>
@@ -72,8 +109,8 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon fitted name="external square" />&nbsp;Hier gehts zum Auszug des
-            Zeitungsartikels.
+            <Icon fitted name="external square" />
+            &nbsp;Hier gehts zum Auszug des Zeitungsartikels.
           </a>
         </p>
       </TimelineItem>
@@ -96,8 +133,8 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon fitted name="external square" />&nbsp;Hier gehts zum Wortlaut der
-            Sammeleinsprache.
+            <Icon fitted name="external square" />
+            &nbsp;Hier gehts zum Wortlaut der Sammeleinsprache.
           </a>
         </p>
       </TimelineItem>
