@@ -1,6 +1,9 @@
 import React from "react";
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
+import PdfRekurs from "../documents/Rekurs.pdf";
+import PdfGemeinde from "../documents/EntscheidGemeinde.pdf";
+
 function Newsfeed() {
   return (
     <Timeline lineColor={"#ddd"}>
@@ -16,7 +19,7 @@ function Newsfeed() {
           geprüft.
         </p>
         <p>
-          <a href="#hh" target="_blank" rel="noopener noreferrer">
+          <a href={PdfRekurs} target="_blank" rel="noopener noreferrer">
             Hier gehts zum Download der Dokumente als PDF.
           </a>
         </p>
@@ -43,7 +46,7 @@ function Newsfeed() {
           als begründet erwiesen und diesbezüglich gutgeheissen.
         </p>
         <p>
-          <a href="#hh" target="_blank" rel="noopener noreferrer">
+          <a href={PdfGemeinde} target="_blank" rel="noopener noreferrer">
             Hier gehts zum Download der vollständigen Dokumente als PDF.
           </a>
         </p>
