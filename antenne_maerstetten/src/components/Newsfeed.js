@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from "semantic-ui-react";
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 import PdfRekurs from "../documents/Rekurs.pdf";
@@ -20,6 +21,7 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfRekurs} target="_blank" rel="noopener noreferrer">
+            <Icon fitted name="file pdf" />
             Hier gehts zum Download der Dokumente als PDF.
           </a>
         </p>
@@ -47,7 +49,8 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfGemeinde} target="_blank" rel="noopener noreferrer">
-            Hier gehts zum Download der vollständigen Dokumente als PDF.
+            <Icon fitted name="file pdf" /> Hier gehts zum Download der
+            vollständigen Dokumente als PDF.
           </a>
         </p>
       </TimelineItem>
@@ -69,7 +72,8 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hier gehts zum Auszug des Zeitungsartikels.
+            <Icon fitted name="external square" /> Hier gehts zum Auszug des
+            Zeitungsartikels.
           </a>
         </p>
       </TimelineItem>
@@ -82,8 +86,8 @@ function Newsfeed() {
       >
         <h3>Sammeleinsprache gestartet</h3>
         <p>
-          Im Mai 2018 wurde, nachdem die Salt Mobile SA das Baugesuch am am 16.
-          Mai für eine Mobilfunkantenne neben dem Gebäude der Druckerei Hess
+          Im Mai 2018 wurde, nachdem die Salt Mobile SA das Baugesuch am 16. Mai
+          für eine Mobilfunkantenne neben dem Gebäude der Druckerei Hess
           eingereicht hatte, die Sammeleinsprache in Märstetten gestartet.
         </p>
         <p>
@@ -92,7 +96,8 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hier gehts zum Wortlaut der Sammeleinsprache.
+            <Icon fitted name="external square" /> Hier gehts zum Wortlaut der
+            Sammeleinsprache.
           </a>
         </p>
       </TimelineItem>
