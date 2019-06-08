@@ -1,7 +1,8 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import { Header } from 'semantic-ui-react'
-import wappen from'../wappen.png';
+import { Header } from "semantic-ui-react";
+import wappen from "../wappen.png";
+import background from "../header.jpg";
 
 const insideStyles = {
   padding: 20,
@@ -14,14 +15,14 @@ const insideStyles = {
 function HeaderBox() {
   return (
     <Parallax
-      bgImage={require("../header.jpg")}
+      bgImage={background}
       strength={400}
       blur={{ min: -10, max: 20 }}
       renderLayer={percentage => (
         <div
           style={{
             position: "absolute",
-            background: `rgba(168, 178, 117, ${(percentage-0.5) * 5})`,
+            background: `rgba(168, 178, 117, ${(percentage - 0.5) * 5})`,
             left: "50%",
             marginLeft: percentage * -300,
             marginTop: percentage * -300,
@@ -31,15 +32,15 @@ function HeaderBox() {
             height: percentage * 600
           }}
         >
-        <div className="headerTitle" style={insideStyles}>
-          <Header as="h1">Newsfeed Antenne Märstetten</Header>
-        </div>
+          <div className="headerTitle" style={insideStyles}>
+            <Header as="h1">Newsfeed Antenne Märstetten</Header>
+          </div>
         </div>
       )}
     >
       <div style={{ height: 750 }}>
         <div className="headerFixed">
-          <img  src={wappen} alt="Märstetten"/>
+          <img src={wappen} alt="Märstetten" />
         </div>
       </div>
     </Parallax>

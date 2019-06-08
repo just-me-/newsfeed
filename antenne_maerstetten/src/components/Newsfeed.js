@@ -16,7 +16,7 @@ function Newsfeed() {
           geprüft.
         </p>
         <p>
-          <a href="#" target="_blank">
+          <a href="#hh" target="_blank" rel="noopener noreferrer">
             Hier gehts zum Download der Dokumente als PDF.
           </a>
         </p>
@@ -43,7 +43,7 @@ function Newsfeed() {
           als begründet erwiesen und diesbezüglich gutgeheissen.
         </p>
         <p>
-          <a href="#" target="_blank">
+          <a href="#hh" target="_blank" rel="noopener noreferrer">
             Hier gehts zum Download der vollständigen Dokumente als PDF.
           </a>
         </p>
@@ -61,7 +61,11 @@ function Newsfeed() {
           Unterschriften überreichen. Für Märstetten eine gewaltige Zahl!
         </p>
         <p>
-          <a href="http://arnis.ch/carina/Willkommen.html" target="_blank">
+          <a
+            href="http://arnis.ch/carina/Willkommen.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Hier gehts zum Auszug des Zeitungsartikels.
           </a>
         </p>
@@ -83,6 +87,7 @@ function Newsfeed() {
           <a
             href="http://arnis.ch/carina/Sammeleinsprache.html"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Hier gehts zum Wortlaut der Sammeleinsprache.
           </a>
