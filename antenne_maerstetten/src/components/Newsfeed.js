@@ -21,8 +21,8 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfRekurs} target="_blank" rel="noopener noreferrer">
-            <Icon fitted name="file pdf" />
-            Hier gehts zum Download der Dokumente als PDF.
+            <Icon fitted name="file pdf" />&nbsp;Hier gehts zum Download
+              der Dokumente als PDF.
           </a>
         </p>
       </TimelineItem>
@@ -49,7 +49,7 @@ function Newsfeed() {
         </p>
         <p>
           <a href={PdfGemeinde} target="_blank" rel="noopener noreferrer">
-            <Icon fitted name="file pdf" /> Hier gehts zum Download der
+            <Icon fitted name="file pdf" />&nbsp;Hier gehts zum Download der
             vollständigen Dokumente als PDF.
           </a>
         </p>
@@ -72,7 +72,7 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon fitted name="external square" /> Hier gehts zum Auszug des
+            <Icon fitted name="external square" />&nbsp;Hier gehts zum Auszug des
             Zeitungsartikels.
           </a>
         </p>
@@ -96,7 +96,7 @@ function Newsfeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon fitted name="external square" /> Hier gehts zum Wortlaut der
+            <Icon fitted name="external square" />&nbsp;Hier gehts zum Wortlaut der
             Sammeleinsprache.
           </a>
         </p>

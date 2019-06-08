@@ -64,7 +64,25 @@ a::after {
     height: 2px;
     transition: width 0.3s;
 }
-
 a:hover::after {
     width: 100%;
+}
+
+
+footer {
+  padding: 2rem 0 4rem 0;
+  margin-top: 4rem;
+  color: #ffffff;
+  background-color: #A8B275;
+  letter-spacing: 0.1em;
+}
+footer a,
+footer a:visited{
+  color: #60683a;
+}
+footer a:hover {
+  color: #434929;
+}
+footer a::after {
+  background: rgba(67, 73, 41, 0.6);
 }
