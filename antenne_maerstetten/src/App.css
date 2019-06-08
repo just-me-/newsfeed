@@ -17,10 +17,17 @@
   width: 100%;
   height: auto;
   opacity: 0.7;
+
+  animation: fadeinLogo 1.5s;
+}
+@keyframes fadeinLogo {
+    from { opacity: 0; margin-top: -1rem}
+    to   { opacity: 0.7; margin-top: 0}
 }
 
 .headerTitle {
   z-index: 2;
+  animation: fadein 1.5s;
 }
 .headerTitle h1 {
   text-align: center;
@@ -33,4 +40,31 @@
   font-weight: 700;
   letter-spacing: .2rem;
   font-size: 4rem !important;
+}
+@keyframes fadein {
+    from { opacity: 0; margin-top: -1rem}
+    to   { opacity: 1; margin-top: 0}
+}
+
+a, a:visited {
+  color: #A8B275;
+  display: inline-block;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #60683a
+}
+a::after {
+    content: '';
+    background: rgba(168, 178, 117, 0.6);
+    display: block;
+    position: relative;
+    margin-top: -1px;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+a:hover::after {
+    width: 100%;
 }

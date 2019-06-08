@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderBox from "./components/HeaderBox";
+import Newsfeed from "./components/Newsfeed";
 
 import "./App.css";
 
@@ -10,15 +11,8 @@ function App() {
         <HeaderBox />
       </header>
 
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
+      <Newsfeed/>
+
     </div>
   );
 }
