@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Dimmer, Loader, Segment, Container, Header } from "semantic-ui-react";
+import GitHubForkRibbon from "react-github-fork-ribbon";
 
 import HeaderBox from "./components/HeaderBox";
 import Newsfeed from "./components/Newsfeed";
@@ -26,6 +27,14 @@ function App() {
     </div>
   ) : (
     <div className="App">
+      <GitHubForkRibbon
+        href="https://github.com/just-me-/newsfeed"
+        color="black"
+        target="_blank"
+        position="right"
+      >
+        Find me on GitHub
+      </GitHubForkRibbon>
       <header className="App-header">
         <HeaderBox />
       </header>
