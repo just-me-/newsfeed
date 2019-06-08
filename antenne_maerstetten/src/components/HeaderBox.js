@@ -14,7 +14,7 @@ const insideStyles = {
 function HeaderBox() {
   return (
     <Parallax
-      bgImage={require("../header.JPG")}
+      bgImage={require("../header.jpg")}
       strength={400}
       blur={{ min: -10, max: 20 }}
       renderLayer={percentage => (

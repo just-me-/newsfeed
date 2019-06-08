@@ -6,12 +6,15 @@ function Newsfeed() {
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="004"
-        dateText="???"
+        dateText="4. Juni 2019"
         dateInnerStyle={{ backgroundColor: "#A8B275" }}
         style={{ color: "#A8B275" }}
       >
         <h3>Salt hat Rekurs gegen den Entscheid eingereicht</h3>
-        <p>...</p>
+        <p>
+          Die Salt Mobile SA legt Rekurs ein. Die Einsprache wird vom Kanton neu
+          geprüft.
+        </p>
         <p>
           <a href="#" target="_blank">
             Hier gehts zum Download der Dokumente als PDF.
@@ -21,15 +24,27 @@ function Newsfeed() {
 
       <TimelineItem
         key="003"
-        dateText="???"
+        dateText="6. Mai 2019"
         dateInnerStyle={{ backgroundColor: "#A8B275" }}
         style={{ color: "#A8B275" }}
       >
         <h3>Entscheid der Gemeinde Märstetten - Baugesuch abgelehnt</h3>
-        <p>...</p>
+        <p>
+          Das Baugesuch der Salt Mobile SA wurde aufgrund der Farbgebung von der
+          Gemeinde Märstetten abgelehnt. Das Baugesuch wurde abgeweisen, die
+          Baubewilligung wurde verweigert.
+        </p>
+        <p>
+          Die Einsprecher beanstandeten, dass sich die Anlage in ihrer
+          Erscheinung nicht in die Landschaft einpasse. Aus der Baueingabe liess
+          sich die zukünftige Farbgebung der beantragten Elemente nicht
+          einsehen. Da diesbezüglich trotz erneuten Nachfragen von der Gemeinde
+          an die Gesuchsstellerin keine Antwort erfolgte, wurde die Einsprache
+          als begründet erwiesen und diesbezüglich gutgeheissen.
+        </p>
         <p>
           <a href="#" target="_blank">
-            Hier gehts zum Download der Dokumente als PDF.
+            Hier gehts zum Download der vollständigen Dokumente als PDF.
           </a>
         </p>
       </TimelineItem>
@@ -69,7 +84,7 @@ function Newsfeed() {
             href="http://arnis.ch/carina/Sammeleinsprache.html"
             target="_blank"
           >
-            Hier gehts Wortlaut der Sammeleinsprache.
+            Hier gehts zum Wortlaut der Sammeleinsprache.
           </a>
         </p>
       </TimelineItem>
