@@ -6,10 +6,37 @@ import PdfRekurs from "../documents/Rekurs.pdf";
 import PdfGemeinde from "../documents/EntscheidGemeinde.pdf";
 import PdfBaurelgement from "../documents/Baureglement.pdf";
 import PdfOrtsplanung from "../documents/VernehmlassungOrtsplanung.pdf";
+import PdfFlyer from "../documents/Flyer5G_Infoabend.pdf";
 
 function Newsfeed() {
   return (
     <Timeline lineColor={"#ddd"}>
+      <TimelineItem
+        key="006"
+        dateText="30. August 2019"
+        dateInnerStyle={{ backgroundColor: "#A8B275" }}
+        style={{ color: "#A8B275" }}
+      >
+        <h3>Infoveranstaltung zu Mobilfunk und 5G</h3>
+        <p>
+          Die Interessengemeinschaft &laquo;Betroffene Bürger Bodensee&raquo;
+          wird am Freitagabend in Märstetten einen Infoabend bezüglich Mobilfunk
+          und 5G halten.
+        </p>
+        <p>
+          Es werden verschiedene Kurzvorträge gehalten, unter anderem von einer
+          Ärztin und einem Elektro-Ingenieur. Nutzen Sie diesen Abend, um einige
+          Fakten und Studien zum Mobilfunk und seiner nächsten Generation 5G zu
+          erfahren und allfällige Fragen zu stellen.
+        </p>
+        <p>
+          <a href={PdfFlyer} target="_blank" rel="noopener noreferrer">
+            <Icon fitted name="file pdf" />
+            &nbsp;Hier gehts zum Download des Flyers als PDF.
+          </a>
+        </p>
+      </TimelineItem>
+
       <TimelineItem
         key="005"
         dateText="4. Juni 2019"
@@ -98,7 +125,7 @@ function Newsfeed() {
         dateInnerStyle={{ backgroundColor: "#A8B275" }}
         style={{ color: "#A8B275" }}
       >
-        <h3>Einsprache erhoben - 500 gegen die Antenne</h3>
+        <h3>Einsprache erhoben &ndash; 500 gegen die Antenne</h3>
         <p>
           Am Montag, 4. Juni konnten wir dem Gemeindepräsidenten 508
           Unterschriften überreichen. Für Märstetten eine gewaltige Zahl!
