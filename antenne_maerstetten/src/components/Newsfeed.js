@@ -7,10 +7,35 @@ import PdfGemeinde from "../documents/EntscheidGemeinde.pdf";
 import PdfBaurelgement from "../documents/Baureglement.pdf";
 import PdfOrtsplanung from "../documents/VernehmlassungOrtsplanung.pdf";
 import PdfFlyer from "../documents/Flyer5G_Infoabend.pdf";
+import PdfInitiative from "../documents/Untschrbogen_Mobihaftini.pdf";
 
 function Newsfeed() {
   return (
     <Timeline lineColor={"#ddd"}>
+      <TimelineItem
+        key="007"
+        dateText="18. November 2019"
+        dateInnerStyle={{ backgroundColor: "#A8B275" }}
+        style={{ color: "#A8B275" }}
+      >
+        <h3>Initiative &laquo;Mobilfunkhaftungs-Initiative&raquo;</h3>
+        <p>
+          Wir wurden von Mitunterschreibern der Sammeleinsprache gebeten,
+          auf die im Wallis gestartete Volksinitiative für die
+          &laquo;Haftbarmachung der Verursacher von Personen- und Sachschäden
+          durch Mobilfunk-Sendeanlagen&raquo; aufmerksam zu machen.
+        </p>
+        <p>
+          Genauere Informationen sind dem PDF &ndash; beziehungsweise der entsprechenden Website &ndash; zu entnehmen.
+        </p>
+        <p>
+          <a href={PdfInitiative} target="_blank" rel="noopener noreferrer">
+            <Icon fitted name="file pdf" />
+            &nbsp;Hier gehts zum Download des Unterschriftenbogens als PDF.
+          </a>
+        </p>
+      </TimelineItem>
+
       <TimelineItem
         key="006"
         dateText="30. August 2019"
